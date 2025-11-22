@@ -15,6 +15,14 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
+    "paths": {
+      "ss-core": [
+        "./dist/ss-core"
+      ],
+      "ss-theme": [
+        "./dist/ss-theme"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022"
   },
